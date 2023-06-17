@@ -33,7 +33,11 @@ public class Calculator {
 					System.out.println("Subtraction of these numbers is: "+ac.subtraction(number3, number4));
 					break;
 				case "*":
-					
+					System.out.println("Please enter the first number that you want to multiply");
+					double number5=sc.nextDouble();
+					System.out.println("Please enter the second number that you want to multiply");
+					double number6=sc.nextDouble();
+					System.out.println("Multiplication of these numbers is: "+ac.multiplication(number5, number6));					
 					break;
 				case "/":
 					
