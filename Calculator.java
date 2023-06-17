@@ -25,8 +25,12 @@ public class Calculator {
 					double number2=sc.nextDouble();
 					System.out.println("Sum of these numbers is: "+ac.addition(number1, number2));
 					break;
-				case "-":	
-					
+				case "-":
+					System.out.println("Please enter the first number that you want to subtract from");
+					double number3=sc.nextDouble();
+					System.out.println("Please enter the second number that you want to subtract to");
+					double number4=sc.nextDouble();
+					System.out.println("Subtraction of these numbers is: "+ac.subtraction(number3, number4));
 					break;
 				case "*":
 					
