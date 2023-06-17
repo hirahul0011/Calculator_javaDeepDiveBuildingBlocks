@@ -46,8 +46,7 @@ public class Calculator {
 					double number8=sc.nextDouble();
 					System.out.println("Division of these numbers is: "+ac.division(number7, number8));
 					break;
-				case "0":
-					
+				case "0":					
 					break OperationsLoop;	
 			}
 		}while(1!=0);
