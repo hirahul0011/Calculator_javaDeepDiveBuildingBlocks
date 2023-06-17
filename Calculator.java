@@ -25,13 +25,17 @@ public class Calculator {
 					double number2=sc.nextDouble();
 					System.out.println("Sum of these numbers is: "+ac.addition(number1, number2));
 					break;
-				case "-":					
+				case "-":
+					
 					break;
-				case "*":					
+				case "*":
+					
 					break;
-				case "/":					
+				case "/":
+					
 					break;
 				case "0":
+					
 					break OperationsLoop;	
 			}
 		}while(1!=0);
