@@ -40,7 +40,11 @@ public class Calculator {
 					System.out.println("Multiplication of these numbers is: "+ac.multiplication(number5, number6));					
 					break;
 				case "/":
-					
+					System.out.println("Please enter the first number that you want to divise to");
+					double number7=sc.nextDouble();
+					System.out.println("Please enter the second number that you want to divise by");
+					double number8=sc.nextDouble();
+					System.out.println("Division of these numbers is: "+ac.division(number7, number8));
 					break;
 				case "0":
 					
